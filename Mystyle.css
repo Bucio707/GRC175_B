@@ -1,0 +1,159 @@
+@charset "utf-8";
+/ * CSS Document */
+body 
+
+
+h1, h2, h3 {
+    margin: 0px;   
+    padding: 0px;
+}
+
+#container {
+    background-color: darkolivegreen;
+    width: 1315px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header { 
+    text-align:center;
+    }
+
+
+
+.topnav a {
+    float: left;
+    background-color: darkkhaki;
+    display:block;
+    margin: 9px;
+    color:black;
+    text-align:center;
+    padding:  30px 70px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.topnav li {      
+    list-style: none; 
+}
+
+.topnav ul{
+    float: left
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.topnav ul li ul{
+   display: none;
+    position: absolute; 
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    }
+
+
+.slider_image {
+    width: 91%;
+    height:800px;
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: darkkhaki;
+    padding: 60px;
+}
+
+
+.flex-container1{
+    
+    display: flex;
+    background-color:darkkhaki;
+    justify-content: center;
+    clear: both;
+
+    
+}
+
+.flex-container1  > div{
+    background-color:darkkhaki;
+    color: black;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 15px;
+
+}
+
+
+
+
+.flex-containber{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    clear: both;
+    
+}
+
+
+
+.flex-container> div{
+    
+    width: 200px;
+    color:white;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 30px;
+ 
+    
+}
+
+
+
+
+
+
+.footer 
+{
+     text-align:left;
+}
+
+
+
+.flex-container > div {
+    background-color:darkolivegreen;
+    color:black;
+    width:70%;
+    margin: 2px;
+    text-align:center;
+    line-height:2px;
+    font-size:15px; 
+}
+
+
+
+.flex-container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    clear: both;
+}
+
+
+
+
+
+
+
+
